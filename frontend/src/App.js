@@ -8,7 +8,7 @@ function App() {
 
   function handleAddProject() {
 
-    setProjects([...projects, `Novo projeto ${Date.now()}`]);
+    setProjects([...projects, `Novo projeto ${Date.now()}`]); 
 
   };
 
